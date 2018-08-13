@@ -25,7 +25,7 @@ SECRET_KEY = '9=bxhaz3*t_ud5mc2i+f541-ot7lr92k4fk1lj))%yu7l!4gk0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'controlpersonal.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'mysql_cymysql',
+        'NAME': 'admin_personal',
+        'USER': 'admin_personal',
+        'PASSWORD': 'vn1RhBPs1A',
+        'HOST': '138.197.36.187',
+        'PORT': '',
     }
 }
 
