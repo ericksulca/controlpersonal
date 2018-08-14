@@ -1,0 +1,26 @@
+---------------------------------- PÁGINAS PARA SISTEMA---------------------------
+Login:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/login.html
+
+Pagina inicio - Usuario trabajador:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/blank2.html
+
+Horas trabajadas - Inicio de Erick Jordan:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/sliders.html#
+
+Añadir comentarios al cierre de labores:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/forms_editors.html
+
+----------------------------------- PÁGINAS DE INFO TEMPLATE ---------------------
+
+Botones:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/button.html
+
+Reportes:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/charts_other.html
+
+Largo imputs:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/grid.html
+
+Formulario de registro:
+file:///F:/DatosPC%2006-11/Documentos/SOFTWARE/Sistema%20Control%20trabajo/bs-admin-bcore/template/forms_validation.html
