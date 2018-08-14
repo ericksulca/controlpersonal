@@ -16,12 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app.views import *
-
+from controlpersonal.settings import *
+from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('admin/', admin.site.urls),
-    path('$', Home),
-    path('login/$', Login),
-    path('logout/$', Logout),
-    path('home/$', Home),
-]
+    path('', Home),
+    path('login/', Login),
+    path('logout/', Logout),
+    path('home/', Home),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += staticfiles_urlpatterns()

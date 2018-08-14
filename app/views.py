@@ -4,7 +4,7 @@
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse, HttpResponseRedirect
-from ferreteria import settings
+from controlpersonal import settings
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 from app.models import *
@@ -42,6 +42,6 @@ def Logout(request):
     logout(request)
     return HttpResponseRedirect(settings.LOGIN_URL)
 
-@login_required
+#@login_required
 def Home(request):
     return render(request, "base.html", {'redirect_to': next})
